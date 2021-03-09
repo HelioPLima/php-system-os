@@ -1,0 +1,29 @@
+
+{
+    "name": "hiseg.tec/php-system-os",
+    "description": "Projeto de um sistema para controle de ordem de serviço .",
+    "keywords": ["Ordem de serviço", "Ccontrole de os", "todo", "hiseg tec"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [{
+        "name": "Hiseg tec",
+        "homepage": "https://github.com/HelioPLima"
+    }],
+   "require": {
+        "php": ">=7.0",
+        "doctrine/orm": "2.6.1",
+        "components/jquery": "1.12.4",
+        "twbs/bootstrap": "3.3.7",
+        "boomyjee/teacss": "*",
+        "janpaepke/ScrollMagic": "*",
+        "greensock/GreenSock-JS": "*",
+        "twitter/typeahead.js": "*",
+        "sliptree/bootstrap-tokenfield": "*",
+        "blueimp/jQuery-File-Upload": "*",
+        "php-mvc-project/php-mvc": "^1.1"
+    },
+    "autoload": {
+        "psr-0": { "": "models/" }
+    }
+  
+}
